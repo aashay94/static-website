@@ -1,0 +1,20 @@
+.terms-wrapper {
+    margin-left: 28%;
+    margin-top: 5%;
+    width: 40%;
+    background:#ffefdb;
+    border: 1px solid #000;
+}
+
+.terms-header {
+    font-size: 32px;
+    color: #da9d40;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+.terms-body {
+    padding-left: 4px;
+    background-image: url("../images/terms.jpg");
+    background-repeat: no-repeat; 
+}

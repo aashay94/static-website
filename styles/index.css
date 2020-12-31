@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'aleolight',Verdana,sans-serif;
+}
+body {
+    position: relative;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    background: #232323;
+
+}
+.header h1 {
+    position: relative;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-weight: 600;
+    float: left;
+    text-align: center;
+}
+h1 a {
+    text-decoration: none;
+    background: #da9d40;
+    color: #FFF;
+    font-weight: 600;
+    padding: 10px;
+}
+.nav-tabs {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px 64px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+li:hover {
+    /* border-bottom: 2px solid #da9d40; */
+    box-shadow: inset 0 -3px 0 #da9d40;
+}
+
+.home-img-container {
+    height: 800px;
+    background-image: url("../images/home.jpg");
+    padding-top: 100px;
+}
+.home-img-container h3,h4 {
+    text-align: center;
+    font-size: 50px;
+    color: #da9d40;
+    font-weight: 600;
+}
+
+.grid-container {
+    text-align: center;
+    margin-left: 15%;
+}
+.grid {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #fff;
+}
+.grid img {
+    width: 300px;
+    height: 184px;
+}
+
+.grid h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.grid p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.btn-primary {
+    font-size: 14px;
+    padding: 8px 18px;
+    background: #b84373;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #232323;
+}
+.footer .terms {
+    text-align: right;
+}
+.footer-sub {
+    display: inline-block;
+}
+.footer-sub{
+    color: #da9d40;
+    width: 31%;
+    padding-left: 20px;
+}
+.footer-sub a {
+    color: #da9d40;
+    text-decoration: none;
+}

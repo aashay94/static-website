@@ -1,0 +1,36 @@
+.jobs-wrapper {
+    width: 100%;
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+
+.jobs-header {
+    color: #fff;
+    font-family: 'aleolight',Verdana,sans-serif;
+    font-size: 50px;
+    line-height: 76px;
+    font-weight: normal;
+}
+.jobs-row {
+    float: left;
+    width: 32.6%;
+    padding: 5px;
+}
+.img-outer {
+    min-height: 155px;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+.img-outer img {
+    margin: 0px auto;
+}
+.img-content {
+    display: block;
+    font-size: 22px;
+    line-height: 26px;
+    min-height: 50px;
+    font-family: 'aleolight';
+    color: #fff;
+    font-weight: 600;
+}

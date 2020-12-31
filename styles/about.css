@@ -1,0 +1,22 @@
+.about-wrapper {
+    margin-left: 28%;
+    margin-top: 5%;
+    width: 40%;
+    background: #ffefdb;
+    border: 1px solid black;
+}
+
+.about-header {
+    font-size: 32px;
+    color: #da9d40;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+.about-body {
+    padding-left: 4px;
+}
+.about-img {
+    width: 600px;
+    height: 200px;
+}
